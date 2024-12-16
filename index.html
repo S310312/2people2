@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>食物介紹網站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .product-item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            padding: 15px;
+            text-align: center;
+        }
+        .product-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .product-item h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>回憶紀錄get</h1>
+</header>
+
+<nav>
+    <a href="#home">首頁</a>
+    <a href="#products">約會!</a>
+</nav>
+
+<div class="container" id="home">
+    <h2>這是我們專屬的網站,用來記錄我們的生活!</h2>
+    <p>算是做個五個月紀念日小禮物,我很認真ㄛ,想要紀錄我跟你的生活,希望你會喜歡</p>
+</div>
+
+<div class="container" id="products">
+    <h2>超級重要不能忘的時刻!!</h2>
+    <div class="product">
+        <div class="product-item">
+            <img src="圖片/IMG_4030.jpg" alt="食物1">
+            <h3>第一次一起合照</h3>
+            <p>我們是8/17</p>
+        </div>
+        <div class="product-item">
+            <img src="https://via.placeholder.com/200" alt="食物2">
+            <h3>口感濃郁的冰淇淋</h3>
+            <p>濃郁的香草和巧克力口味冰淇淋，給你清爽的感覺。</p>
+        </div>
+        <div class="product-item">
+            <img src="https://via.placeholder.com/200" alt="食物3">
+            <h3>健康沙拉</h3>
+            <p>這款沙拉搭配了新鮮的蔬菜和營養豐富的食材，適合想要保持健康的人。</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 食物介紹網站 - 所有權利保留</p>
+</footer>
+
+</body>
+</html>
