@@ -31,10 +31,10 @@
         nav a:hover {
             background-color: #ddd;
             color: black;
-        }
-        .container {
-            padding: 20px;
-    .product {
+
+}
+
+.product {
     display: flex;
     flex-direction: column;
     gap: 20px; /* 每橫排的間距 */
@@ -59,17 +59,13 @@
     box-sizing: border-box;
 }
 
-        
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover; /* 確保圖片比例 */
+}
+
     </style>
 </head>
 <body>
@@ -164,6 +160,7 @@
        </div>   
         <div class="product-item">
             <img src="圖片/IMG_4895.jpeg" alt="食物14">
+             </div>
             <h3>走!吃飯</h3>
             <p>我們吃的咖哩飯,好吃,但我印象中我沒吃完...</p>
       </div>   
