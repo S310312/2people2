@@ -35,27 +35,20 @@
         .container {
             padding: 40px;
         }
-        .product {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
         .product-item {
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 200px;
-            padding: 15px;
-            text-align: center;
-        }
-        .product-item img {
-            width: 100%;
-            border-radius: 8px;
-        }
-        .product-item h3 {
-            font-size: 18px;
-            margin: 10px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* 讓圖片和文字垂直居中 */
+    justify-content: center;  /* 確保內容在項目內居中 */
+    width: auto;  /* 移除固定寬度，讓區域隨內容調整 */
+    max-width: 300px;  /* 可設定最大寬度以防圖片過大影響排版 */
+
+        
         }
         footer {
             background-color: #333;
