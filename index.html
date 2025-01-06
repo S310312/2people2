@@ -35,6 +35,30 @@
         .container {
             padding: 40px;
         }
+
+        .product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  /* 增加每個 product-item 之間的間距 */
+    justify-content: center;
+    margin-top: 20px;  /* 頁面頂部間距 */
+}
+
+.product-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    max-width: 300px;  /* 可根據需求設置最大寬度 */
+    margin-bottom: 20px;  /* 每個框的下方留間距 */
+}
+
         .product-item {
     background-color: white;
     border-radius: 8px;
